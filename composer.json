@@ -1,5 +1,5 @@
 {
-    "name": "docta/mercadolibre",
+    "name": "waredesk/mercadolibre",
     "description": "MercadoLibre PHP SDK",
     "license": "MIT",
     "authors": [
@@ -24,8 +24,8 @@
         "sdk"
     ],
     "require": {
-        "php": "^5.6|^7.0",
-        "docta/oauth2-mercadolibre": "^1.0"
+        "php": "^5.6|^7.0|>=8.0.0",
+        "waredesk/oauth2-mercadolibre": "dev-master",
     },
     "require-dev": {
         "apigen/apigen": "^4.1",

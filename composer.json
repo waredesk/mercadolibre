@@ -58,5 +58,11 @@
         "docs": ["@docs-clean", "@docs-apigen"],
         "docs-clean": "rm -rdf ./docs",
         "docs-apigen": "apigen generate --config ./.apigen.yml"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/waredesk/oauth2-mercadolibre.git"
+        }
+    ]
 }
